@@ -1,0 +1,44 @@
+//============================================================================
+// Name        : QuickSort.cpp
+// Author      : jialei
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "!!!Hello World, Let's Start!!!" << endl; // prints !!!Hello World!!!
+	int array[]={34,65,12,43,67,5,78,10,3,70},k;  
+	    int len=sizeof(array)/sizeof(int);  
+	    cout<<"The orginal arrayare:"<<endl;  
+	    for(k=0;k<len;k++)  
+	        cout<<array[k]<<",";  
+	    cout<<endl;  
+
+	return 0;
+}
+
+void QuickSort(int R[], int low, int high)
+{
+	int pivotpos;
+	if(low < high)
+	{
+		pivotpos = Partition(R, low, high);
+		QuickSort(R, low, pivotpos - 1);
+		QuickSort(R, pivotpos + 1, high);
+	}
+
+
+
+}
+
+int Partition(int R[], int i, int j)
+{
+
+
+}
+
+

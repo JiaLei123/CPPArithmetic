@@ -1,0 +1,34 @@
+//============================================================================
+// Name        : CovertString.cpp
+// Author      : jialei
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <string.h>
+#include <stdio.h>
+using namespace std;
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	int num = -12345 , i = 0, j = 0, flag = 0, begin, end;
+	char str[] = "I come from tianjing.", tmp;
+	j = strlen(str)-1;
+	printf("String = %s\n", str);
+	cout << str << endl;
+	while(j>i)
+	{
+		tmp = str[i];
+		str[i] = str[j];
+		str[j] = tmp;
+	}
+
+	printf("String = %s\n", str);
+
+
+
+
+	return 0;
+}

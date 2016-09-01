@@ -1,0 +1,19 @@
+/*
+ * Person.h
+ *
+ *  Created on: 2016Äê8ÔÂ28ÈÕ
+ *      Author: JiaLei
+ */
+
+#ifndef PERSON_H_
+#define PERSON_H_
+
+class Person {
+public:
+	Person();
+	virtual ~Person();
+protected:
+	char *pName;
+};
+
+#endif /* PERSON_H_ */

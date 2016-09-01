@@ -1,0 +1,9 @@
+08:54:40 **** Build of configuration Debug for project covertChars ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:\eclipse;C:/Program Files/Java/jre1.8.0_91/bin/server;C:/Program Files/Java/jre1.8.0_91/bin;C:/Program Files/Java/jre1.8.0_91/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\AOMEI Backupper 2.1;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_77\bin;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\JiaLei\AppData\Local\atom\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps]
+
+08:54:40 Build Finished (took 47ms)
+

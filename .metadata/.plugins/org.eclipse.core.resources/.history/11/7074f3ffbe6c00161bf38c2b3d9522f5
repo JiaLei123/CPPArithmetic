@@ -1,0 +1,18 @@
+/*
+ * Person.cpp
+ *
+ *  Created on: 2016Äê8ÔÂ28ÈÕ
+ *      Author: JiaLei
+ */
+
+#include "Person.h"
+
+Person::Person() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Person::~Person() {
+	// TODO Auto-generated destructor stub
+}
+
