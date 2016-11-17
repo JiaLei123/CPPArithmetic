@@ -1,0 +1,13 @@
+.metadata/
+/**/RemoteSystemsTempFiles/
+/**/Debug/
+/**/Release/
+
+
+
+.metadata/.plugins/org.eclipse.cdt.core/.log
+*.log
+.metadata/.plugins/org.eclipse.cdt.core/.log
+.metadata/.plugins/org.eclipse.core.resources/.root/7.tree
+*.xmi
+*.xmi
